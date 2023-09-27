@@ -1,0 +1,25 @@
+body{
+    background-color: lightblue
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.input-section{
+    padding-left: 2em;
+}
+
+
+

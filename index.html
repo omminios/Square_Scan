@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Scanner to Square POS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="magic.js" async></script>
+    
+<div class="container">
+    <h1 class="title">Scan Items to Square POS</h1>
+    <div class="data">
+        <div class="input-section">
+            <label for="sku">SKU:</label>
+            <input type="text" id="sku" placeholder="Scan Barcode" autofocus>
+        </div>
+        
+        <!-- These fields can be hidden initially and shown once a SKU is entered/scanned. -->
+        <div class="input-section">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Item Name">
+        </div>
+        
+        <div class="input-section">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" placeholder="Quantity" min="1" value="1">
+        </div>
+    </div>
+    <div class="submit">
+        <button class="">Upload to Square POS</button>
+    </div>
+    
+    
+</div>
+
+</body>
+</html>

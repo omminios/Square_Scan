@@ -2,7 +2,7 @@ document.getElementById('sku').addEventListener('input', function() {
     const skuValue = this.value;
 
     // Fetch item details based on SKU from the backend
-    fetch(`http://localhost:3000/getitem/${skuValue}`)
+    fetch(`http://localhost:3000/findsku/${skuValue}`)
         .then(response => response.json())
         .then(data => {
             if (data.error) {
